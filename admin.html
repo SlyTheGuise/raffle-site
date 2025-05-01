@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admin Panel</title>
+  <script type="module" src="js/admin.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-200 flex items-center justify-center min-h-screen">
+  <div class="bg-white p-10 rounded-xl shadow-lg max-w-sm w-full">
+    <h1 class="text-xl font-bold mb-4">Admin Login</h1>
+    <div id="login-section">
+      <input type="password" id="admin-password" placeholder="Enter password" class="w-full p-2 border mb-4 rounded" />
+      <button id="login-btn" class="w-full bg-blue-600 text-white p-2 rounded">Login</button>
+    </div>
+    <div id="admin-controls" class="hidden">
+      <button id="spin-btn" class="w-full bg-green-500 text-white p-2 rounded">Spin the Wheel</button>
+    </div>
+  </div>
+</body>
+</html>
